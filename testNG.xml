@@ -1,0 +1,20 @@
+<suite name = "Suite">
+    <listeners>
+        <listener class-name ="MyListener">
+
+        </listener>
+
+    </listeners>
+    <test name = "Test">
+        <groups>
+            <run>
+                <include name = "group 1" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name = "ConvertTempTest">
+            </class>
+        </classes>
+    </test>
+</suite>
